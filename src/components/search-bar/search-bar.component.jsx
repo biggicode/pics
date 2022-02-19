@@ -2,6 +2,12 @@ import React from "react"
 
 export class SearchBar extends React.Component {
   render() {
-    return <input type="text" />
+    return (
+      <div>
+        <form>
+          <input type="text" />
+        </form>
+      </div>
+    )
   }
 }
