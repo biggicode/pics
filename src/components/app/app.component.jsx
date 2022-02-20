@@ -20,7 +20,7 @@ export class App extends React.Component {
     return (
       <div className="ui container" style={{ marginTop: "1rem" }}>
         <SearchBar passOnSubmit={this.handleSearchSubmit} />
-        <ImageList />
+        <ImageList iamges={this.state.images} />
       </div>
     )
   }
